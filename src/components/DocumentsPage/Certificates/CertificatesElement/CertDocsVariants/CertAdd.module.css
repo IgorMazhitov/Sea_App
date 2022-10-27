@@ -1,0 +1,285 @@
+.CertAddContainer {
+
+    min-width: 554px;
+    min-height: 485px;
+    background-color: #F5F5F5;
+    border-radius: 50px;
+    border: 2px solid #49A6FD;
+    margin-right: 72px;
+    margin-left: 72px;
+    scroll-snap-align: center;
+    position: relative;
+    box-shadow: 3px 3px 10px 3px #dddddd;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.CertAddBut {
+
+    width: 414px;
+    height: 138px;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    
+    border: 2px solid #49A6FD;
+    
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    
+    color: #F5F5F5;
+    
+    cursor: pointer;
+    
+    background-image: linear-gradient(#49A6FD 50%, #F5F5F5 50%);
+    background-repeat: no-repeat;
+    background-size: 200% 200%;
+    background-position: 0 0;
+    
+    transition: background-position 300ms;
+
+}
+
+.CertAddBut:hover {
+
+    background-position: 0 200px;
+    color: #49A6FD;
+    border: 2px solid #49A6FD;
+
+}
+
+.TypeContainer {
+
+    position: absolute;
+    top: 50px;
+    left: 62px;
+
+}
+
+.DurationContainer {
+
+    position: absolute;
+    top: 200px;
+    left: 62px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #49A6FD;
+
+}
+
+.DurationSelect {
+
+    width: 430px;
+    height: 60px;
+    border-radius: 0px 50px 50px 50px;
+    border: none;
+    background-color: #D9D9D9;
+    margin-top: 5px;
+
+}
+
+.VariantAdd {
+
+    position: absolute;
+    bottom: 50px;
+    left: 136px;
+    width: 282px;
+    height: 94px;
+
+    background-color: #49A6FD;
+    border-radius: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F5F5F5;
+
+    cursor: pointer;
+
+}
+
+.VariantWrong {
+
+    display: none;
+    position: absolute;
+    width: 231px;
+    height: 31px;
+    bottom: 20px;
+    left: 162px;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #BF2525;
+
+}
+
+.TypeSelectContainer, .DurSelectContainer {
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #49A6FD;
+
+}
+
+.TypeSelect, .DurSelect {
+
+    height: 60px;
+    width: 430px;
+    background-color: #dddddd;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+.TextTypeSelect, .TextDurSelect {
+
+    box-sizing: border-box;
+    width: 380px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #49A6FD;
+    margin-left: 10px;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.TypeArrowDown, .DurArrowDown {
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 15px 0 15px;
+    border-color: #49A6FD transparent transparent transparent;
+    margin-right: 10px;
+
+}
+
+.TypeArrowUp, .DurArrowUp {
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 30px 15px;
+    border-color: transparent transparent #49A6FD transparent;
+    margin-right: 10px;
+
+}
+
+.TypeOption, .DurOption {
+
+    padding: 5px;
+    cursor: pointer;
+    transition: all .1s ease-in-out .1s;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #49A6FD;
+
+
+}
+
+.TypeOption:hover, .DurOption:hover {
+
+    filter: brightness(1.1);
+    background-color: #bebebe;
+
+
+
+}
+
+.TypeOptionSelected {
+
+    padding: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #dddddd;
+    background-color: #49A6FD;
+
+}
+
+.TypeOptionsList, .DurOptionsList {
+
+    position: absolute;
+    z-index: 2;
+    width: 430px;
+    max-height: 200px;
+    overflow-y: scroll;
+    margin-top: 10px;
+    background-color: #dddddd;
+    border-radius: 5px;
+
+    transition: .4s linear .2s;
+
+}
+
+.TypeOptionsList::-webkit-scrollbar {
+
+    width: 4px;
+    background-color: #D9D9D9;
+
+}
+
+.TypeOptionsList::-webkit-scrollbar-thumb {
+
+    background-color: #49A6FD;
+    border-radius: 50px;
+
+}   
+

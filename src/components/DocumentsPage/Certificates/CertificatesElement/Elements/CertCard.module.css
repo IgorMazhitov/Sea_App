@@ -1,0 +1,711 @@
+.CertCardContainer, .CertDataContainer {
+
+    position: relative;
+    min-width: 554px;
+    min-height: 485px;
+    background-color: #F5F5F5;
+    border-radius: 50px;
+    border: 2px solid #49A6FD;
+    margin-right: 72px;
+    margin-left: 72px;
+    scroll-snap-align: center;
+    box-shadow: 3px 3px 10px 3px #dddddd;
+
+}
+
+.MedImg, .FireImg, .SurImg, .BasImg, .PolImg {
+
+    position: relative;
+    background-repeat: no-repeat;
+    width: 554px;
+    height: 344px;
+    border-radius: 47px 47px 0 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 110px;
+
+    color: #F5F5F5;
+    
+}
+
+.MedImg {
+    
+    overflow: hidden;
+    background-image: radial-gradient(circle at center center, #f73280, #0c78ff), repeating-radial-gradient(circle at center center, #f73280, #f73280, 50px, transparent 100px, transparent 50px);
+    background-blend-mode: multiply;
+    background-color: #0c78ff;
+    
+}
+
+.MedImg:hover {
+    animation: hoverMed .5s ease-in-out infinite alternate;
+}
+
+@keyframes hoverMed {
+    
+    0% {
+        background-image: radial-gradient(circle at center center, #f73280, #0c78ff), repeating-radial-gradient(circle at center center, #f73280, #f73280, 50px, transparent 100px, transparent 50px);
+    }
+    10% {
+        background-image: radial-gradient(circle at center center, #f73280, #0c78ff), repeating-radial-gradient(circle at center center, #f73280, #f73280, 51px, transparent 102px, transparent 51px);
+    }
+    20% {
+        background-image: radial-gradient(circle at center center, #f73280, #0c78ff), repeating-radial-gradient(circle at center center, #f73280, #f73280, 52px, transparent 104px, transparent 52px);
+    }
+    30% {
+        background-image: radial-gradient(circle at center center, #f73280, #0c78ff), repeating-radial-gradient(circle at center center, #f73280, #f73280, 53px, transparent 106px, transparent 53px);
+    }
+    40% {
+        background-image: radial-gradient(circle at center center, #f73280, #0c78ff), repeating-radial-gradient(circle at center center, #f73280, #f73280, 54px, transparent 108px, transparent 54px);
+    }
+    50% {
+        background-image: radial-gradient(circle at center center, #f73280, #0c78ff), repeating-radial-gradient(circle at center center, #f73280, #f73280, 55px, transparent 110px, transparent 55px);
+    }
+    60% {
+        background-image: radial-gradient(circle at center center, #f73280, #0c78ff), repeating-radial-gradient(circle at center center, #f73280, #f73280, 56px, transparent 112px, transparent 56px);
+    }
+    70% {
+        background-image: radial-gradient(circle at center center, #f73280, #0c78ff), repeating-radial-gradient(circle at center center, #f73280, #f73280, 57px, transparent 114px, transparent 57px);
+    }
+    80% {
+        background-image: radial-gradient(circle at center center, #f73280, #0c78ff), repeating-radial-gradient(circle at center center, #f73280, #f73280, 58px, transparent 116px, transparent 58px);
+    }
+    90% {
+        background-image: radial-gradient(circle at center center, #f73280, #0c78ff), repeating-radial-gradient(circle at center center, #f73280, #f73280, 59px, transparent 118px, transparent 59px);
+    }
+    100% {
+        background-image: radial-gradient(circle at center center, #f73280, #0c78ff), repeating-radial-gradient(circle at center center, #f73280, #f73280, 60px, transparent 120px, transparent 60px);
+    }
+
+}
+
+
+
+.FireImg {
+
+    background-image: radial-gradient(circle at center center, #4c30a7, #f5494c), repeating-radial-gradient(circle at center center, #4c30a7, #4c30a7, 50px, transparent 100px, transparent 50px);
+    background-blend-mode: multiply;
+    background-color: #f5494c;
+
+}
+
+.FireImg:hover {
+    animation: hoverFire .5s ease-in-out infinite alternate;
+}
+
+@keyframes hoverFire {
+    
+    0% {
+        background-image: radial-gradient(circle at center center, #4c30a7, #f5494c), repeating-radial-gradient(circle at center center, #4c30a7, #4c30a7, 50px, transparent 100px, transparent 50px);
+    }
+    10% {
+        background-image: radial-gradient(circle at center center, #4c30a7, #f5494c), repeating-radial-gradient(circle at center center, #4c30a7, #4c30a7, 51px, transparent 102px, transparent 51px);
+    }
+    20% {
+        background-image: radial-gradient(circle at center center, #4c30a7, #f5494c), repeating-radial-gradient(circle at center center, #4c30a7, #4c30a7, 52px, transparent 104px, transparent 52px);
+    }
+    30% {
+        background-image: radial-gradient(circle at center center, #4c30a7, #f5494c), repeating-radial-gradient(circle at center center, #4c30a7, #4c30a7, 53px, transparent 106px, transparent 53px);
+    }
+    40% {
+        background-image: radial-gradient(circle at center center, #4c30a7, #f5494c), repeating-radial-gradient(circle at center center, #4c30a7, #4c30a7, 54px, transparent 108px, transparent 54px);
+    }
+    50% {
+        background-image: radial-gradient(circle at center center, #4c30a7, #f5494c), repeating-radial-gradient(circle at center center, #4c30a7, #4c30a7, 55px, transparent 110px, transparent 55px);
+    }
+    60% {
+        background-image: radial-gradient(circle at center center, #4c30a7, #f5494c), repeating-radial-gradient(circle at center center, #4c30a7, #4c30a7, 56px, transparent 112px, transparent 56px);
+    }
+    70% {
+        background-image: radial-gradient(circle at center center, #4c30a7, #f5494c), repeating-radial-gradient(circle at center center, #4c30a7, #4c30a7, 57px, transparent 114px, transparent 57px);
+    }
+    80% {
+        background-image: radial-gradient(circle at center center, #4c30a7, #f5494c), repeating-radial-gradient(circle at center center, #4c30a7, #4c30a7, 58px, transparent 116px, transparent 58px);
+    }
+    90% {
+        background-image: radial-gradient(circle at center center, #4c30a7, #f5494c), repeating-radial-gradient(circle at center center, #4c30a7, #4c30a7, 59px, transparent 118px, transparent 59px);
+    }
+    100% {
+        background-image: radial-gradient(circle at center center, #4c30a7, #f5494c), repeating-radial-gradient(circle at center center, #4c30a7, #4c30a7, 60px, transparent 120px, transparent 60px);
+    }
+
+}
+
+
+
+.SurImg {
+
+    background-image: radial-gradient(circle at center center, #02a9ad, rgba(170, 83, 237, 0.82)), repeating-radial-gradient(circle at center center, #02a9ad, #02a9ad, 50px, transparent 100px, transparent 50px);
+    background-blend-mode: multiply;
+    background-color: rgba(170, 83, 237, 0.82);
+
+}
+
+.SurImg:hover {
+    animation: hoverSur .5s ease-in-out infinite alternate;
+}
+
+@keyframes hoverSur {
+    
+    0% {
+        background-image: radial-gradient(circle at center center, #02a9ad, rgba(170, 83, 237, 0.82)), repeating-radial-gradient(circle at center center, #02a9ad, #02a9ad, 50px, transparent 100px, transparent 50px);
+    }
+    10% {
+        background-image: radial-gradient(circle at center center, #02a9ad, rgba(170, 83, 237, 0.82)), repeating-radial-gradient(circle at center center, #02a9ad, #02a9ad, 51px, transparent 102px, transparent 51px);
+    }
+    20% {
+        background-image: radial-gradient(circle at center center, #02a9ad, rgba(170, 83, 237, 0.82)), repeating-radial-gradient(circle at center center, #02a9ad, #02a9ad, 52px, transparent 104px, transparent 52px);
+    }
+    30% {
+        background-image: radial-gradient(circle at center center, #02a9ad, rgba(170, 83, 237, 0.82)), repeating-radial-gradient(circle at center center, #02a9ad, #02a9ad, 53px, transparent 106px, transparent 53px);
+    }
+    40% {
+        background-image: radial-gradient(circle at center center, #02a9ad, rgba(170, 83, 237, 0.82)), repeating-radial-gradient(circle at center center, #02a9ad, #02a9ad, 54px, transparent 108px, transparent 54px);
+    }
+    50% {
+        background-image: radial-gradient(circle at center center, #02a9ad, rgba(170, 83, 237, 0.82)), repeating-radial-gradient(circle at center center, #02a9ad, #02a9ad, 55px, transparent 110px, transparent 55px);
+    }
+    60% {
+        background-image: radial-gradient(circle at center center, #02a9ad, rgba(170, 83, 237, 0.82)), repeating-radial-gradient(circle at center center, #02a9ad, #02a9ad, 56px, transparent 112px, transparent 56px);
+    }
+    70% {
+        background-image: radial-gradient(circle at center center, #02a9ad, rgba(170, 83, 237, 0.82)), repeating-radial-gradient(circle at center center, #02a9ad, #02a9ad, 57px, transparent 114px, transparent 57px);
+    }
+    80% {
+        background-image: radial-gradient(circle at center center, #02a9ad, rgba(170, 83, 237, 0.82)), repeating-radial-gradient(circle at center center, #02a9ad, #02a9ad, 58px, transparent 116px, transparent 58px);
+    }
+    90% {
+        background-image: radial-gradient(circle at center center, #02a9ad, rgba(170, 83, 237, 0.82)), repeating-radial-gradient(circle at center center, #02a9ad, #02a9ad, 59px, transparent 118px, transparent 59px);
+    }
+    100% {
+        background-image: radial-gradient(circle at center center, #02a9ad, rgba(170, 83, 237, 0.82)), repeating-radial-gradient(circle at center center, #02a9ad, #02a9ad, 60px, transparent 120px, transparent 60px);
+    }
+
+}
+
+.BasImg {
+
+    background-image: radial-gradient(circle at center center, #07656e, #19edce), repeating-radial-gradient(circle at center center, #07656e, #07656e, 50px, transparent 100px, transparent 50px);
+    background-blend-mode: multiply;
+    background-color: #19edce;
+
+}
+
+.BasImg:hover {
+    animation: hoverBas .5s ease-in-out infinite alternate;
+}
+
+@keyframes hoverBas {
+    
+    0% {
+        background-image: radial-gradient(circle at center center, #07656e, #19edce), repeating-radial-gradient(circle at center center, #07656e, #07656e, 50px, transparent 100px, transparent 50px);
+    }
+    10% {
+        background-image: radial-gradient(circle at center center, #07656e, #19edce), repeating-radial-gradient(circle at center center, #07656e, #07656e, 51px, transparent 102px, transparent 51px);
+    }
+    20% {
+        background-image: radial-gradient(circle at center center, #07656e, #19edce), repeating-radial-gradient(circle at center center, #07656e, #07656e, 52px, transparent 104px, transparent 52px);
+    }
+    30% {
+        background-image: radial-gradient(circle at center center, #07656e, #19edce), repeating-radial-gradient(circle at center center, #07656e, #07656e, 53px, transparent 106px, transparent 53px);
+    }
+    40% {
+        background-image: radial-gradient(circle at center center, #07656e, #19edce), repeating-radial-gradient(circle at center center, #07656e, #07656e, 54px, transparent 108px, transparent 54px);
+    }
+    50% {
+        background-image: radial-gradient(circle at center center, #07656e, #19edce), repeating-radial-gradient(circle at center center, #07656e, #07656e, 55px, transparent 110px, transparent 55px);
+    }
+    60% {
+        background-image: radial-gradient(circle at center center, #07656e, #19edce), repeating-radial-gradient(circle at center center, #07656e, #07656e, 56px, transparent 112px, transparent 56px);
+    }
+    70% {
+        background-image: radial-gradient(circle at center center, #07656e, #19edce), repeating-radial-gradient(circle at center center, #07656e, #07656e, 57px, transparent 114px, transparent 57px);
+    }
+    80% {
+        background-image: radial-gradient(circle at center center, #07656e, #19edce), repeating-radial-gradient(circle at center center, #07656e, #07656e, 58px, transparent 116px, transparent 58px);
+    }
+    90% {
+        background-image: radial-gradient(circle at center center, #07656e, #19edce), repeating-radial-gradient(circle at center center, #07656e, #07656e, 59px, transparent 118px, transparent 59px);
+    }
+    100% {
+        background-image: radial-gradient(circle at center center, #07656e, #19edce), repeating-radial-gradient(circle at center center, #07656e, #07656e, 60px, transparent 120px, transparent 60px);
+    }
+
+}
+
+.PolImg {
+
+    background-image: radial-gradient(circle at center center, #2871c6, #eaafe7), repeating-radial-gradient(circle at center center, #2871c6, #2871c6, 50px, transparent 100px, transparent 50px);
+    background-blend-mode: multiply;
+    background-color: #eaafe7;
+
+}
+
+.PolImg:hover {
+    animation: hoverPol .5s ease-in-out infinite alternate;
+}
+
+@keyframes hoverPol {
+    
+    0% {
+        background-image: radial-gradient(circle at center center, #2871c6, #eaafe7), repeating-radial-gradient(circle at center center, #2871c6, #2871c6, 50px, transparent 100px, transparent 50px);
+    }
+    10% {
+        background-image: radial-gradient(circle at center center, #2871c6, #eaafe7), repeating-radial-gradient(circle at center center, #2871c6, #2871c6, 51px, transparent 102px, transparent 51px);
+    }
+    20% {
+        background-image: radial-gradient(circle at center center, #2871c6, #eaafe7), repeating-radial-gradient(circle at center center, #2871c6, #2871c6, 52px, transparent 104px, transparent 52px);
+    }
+    30% {
+        background-image: radial-gradient(circle at center center, #2871c6, #eaafe7), repeating-radial-gradient(circle at center center, #2871c6, #2871c6, 53px, transparent 106px, transparent 53px);
+    }
+    40% {
+        background-image: radial-gradient(circle at center center, #2871c6, #eaafe7), repeating-radial-gradient(circle at center center, #2871c6, #2871c6, 54px, transparent 108px, transparent 54px);
+    }
+    50% {
+        background-image: radial-gradient(circle at center center, #2871c6, #eaafe7), repeating-radial-gradient(circle at center center, #2871c6, #2871c6, 55px, transparent 110px, transparent 55px);
+    }
+    60% {
+        background-image: radial-gradient(circle at center center, #2871c6, #eaafe7), repeating-radial-gradient(circle at center center, #2871c6, #2871c6, 56px, transparent 112px, transparent 56px);
+    }
+    70% {
+        background-image: radial-gradient(circle at center center, #2871c6, #eaafe7), repeating-radial-gradient(circle at center center, #2871c6, #2871c6, 57px, transparent 114px, transparent 57px);
+    }
+    80% {
+        background-image: radial-gradient(circle at center center, #2871c6, #eaafe7), repeating-radial-gradient(circle at center center, #2871c6, #2871c6, 58px, transparent 116px, transparent 58px);
+    }
+    90% {
+        background-image: radial-gradient(circle at center center, #2871c6, #eaafe7), repeating-radial-gradient(circle at center center, #2871c6, #2871c6, 59px, transparent 118px, transparent 59px);
+    }
+    100% {
+        background-image: radial-gradient(circle at center center, #2871c6, #eaafe7), repeating-radial-gradient(circle at center center, #2871c6, #2871c6, 60px, transparent 120px, transparent 60px);
+    }
+
+}
+
+.AddDataButContainer {
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 30px;
+    right: 35px;
+
+    width: 207px;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 500px;
+    background-color: #49A6FD;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #F5F5F5;
+}
+
+.infoButton {
+
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+
+    width: 207px;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid #49A6FD;
+    border-radius: 500px;
+
+    box-sizing: border-box;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #49A6FD;
+
+}
+
+.infoCardBack {
+
+    cursor: pointer;
+
+    position: absolute;
+    left: 31.23%;
+    right: 31.23%;
+    top: 81.29%;
+    bottom: 4.28%;
+
+    height: 70px;
+    width: 208px;
+
+    background: #49A6FD;
+    border-radius: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #F5F5F5;
+}
+
+.infoCardText {
+
+    position: absolute;
+    left: 5.75%;
+    right: 5.8%;
+    top: 9.29%;
+    bottom: 29.06%;
+
+    height: 299px;
+    width: 490px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+    color: #000000;
+
+}
+/* DATA CARD START */
+
+.InputsContainer {
+
+    position: relative;
+    background-repeat: no-repeat;
+    width: 554px;
+    height: 344px;
+    border-radius: 47px 47px 0 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-image: radial-gradient(circle at center center, #f73280, #0c78ff), repeating-radial-gradient(circle at center center, #f73280, #f73280, 50px, transparent 100px, transparent 50px);
+    background-blend-mode: multiply;
+    background-color: #0c78ff;
+    box-sizing: border-box;
+
+}
+
+.InputsContainerUnlim {
+
+    position: relative;
+    background-repeat: no-repeat;
+    width: 554px;
+    height: 344px;
+    border-radius: 47px 47px 0 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background-image: radial-gradient(circle at center center, #f73280, #0c78ff), repeating-radial-gradient(circle at center center, #f73280, #f73280, 50px, transparent 100px, transparent 50px);
+    background-blend-mode: multiply;
+    background-color: #0c78ff;
+    box-sizing: border-box;
+
+}
+
+.numberInput, .issueInput, .expireInput {
+
+    width: 467px;
+    height: 93px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+    box-sizing: border-box;
+    margin-top: 10px;
+
+}
+
+.DataBackButton {
+
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+    width: 207px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #49A6FD;
+    border-radius: 500px;
+
+    background-color: #F5F5F5;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #49A6FD;
+    
+}
+
+.DataSubButton {
+
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    right: 35px;
+    width: 207px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 500px;
+    background-color: #49A6FD;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #F5F5F5;
+
+}
+
+.IssueInputFields, .ExpireInputFields {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 464px;
+    
+}
+
+.IssueInputFields > input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+
+.IssueInputFields > input, .ExpireInputFields > input {
+
+    max-width: 145px;
+    text-align: center;
+    height: 60px;
+    border: 1px solid rgba(245,245,245,0.8);
+    background-color: #F5F5F5;
+
+    border-radius: 50px;
+
+    color: rgb(100, 100, 100);
+
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+
+    backdrop-filter: blur(5px);
+
+}
+
+.inputField {
+
+    height: 60px;
+    width: 463px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    color: rgb(100, 100, 100);
+
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 0 50px 50px 50px;
+
+    text-transform: uppercase;
+    border: 1px solid rgba(245,245,245,0.8);
+    background-color: #F5F5F5;
+    backdrop-filter: blur(5px);
+
+}
+
+/* INFO DATA CARD */
+
+.DataInfoCert {
+
+    position: relative;
+    width: 554px;
+    height: 344px;
+    border-radius: 47px 47px 0 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.InfoNumber {
+
+    width: 491px;
+    height: 92px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+
+}
+
+.InfoNumberText {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.InfoNumberData {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.InfoIssue {
+
+    width: 491px;
+    height: 92px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+
+}
+
+.InfoExpire {
+
+    width: 491px;
+    height: 92px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+
+}
+
+.InfoDataBack {
+
+    position: absolute;
+    left: 31.23%;
+    right: 31.23%;
+    top: 79.38%;
+    bottom: 6.19%;
+
+    width: 207px;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 500px;
+    background-color: #49A6FD;
+    color: #F5F5F5;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #F5F5F5;
+
+}
+
+.DaysLeft {
+
+    position: absolute;
+    width: 467px;
+    height: 70px;
+    left: 44px;
+    top: 243px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-transform: uppercase;
+
+    color: #F5F5F5;
+
+    border-bottom: 3px solid #F5F5F5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

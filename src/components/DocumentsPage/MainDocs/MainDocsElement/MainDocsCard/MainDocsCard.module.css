@@ -1,0 +1,541 @@
+.MainDocsCard {
+
+    position: relative;
+    min-width: 554px;
+    min-height: 485px;
+    background-color: #F5F5F5;
+    border-radius: 50px;
+    border: 2px solid #49A6FD;
+    margin-right: 72px;
+    margin-left: 72px;
+    scroll-snap-align: center;
+    box-shadow: 3px 3px 10px 3px #dddddd;
+
+}
+
+.PassportImg, .ImgSB, .DiplomaImg, .EndorImg, .MedImg {
+
+    position: relative;
+    background-repeat: no-repeat;
+    width: 554px;
+    height: 344px;
+    border-radius: 47px 47px 0 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.PassportDataImg, .ImgDataSB, .DiplomaDataImg, .EndorDataImg, .MedDataImg {
+
+    position: relative;
+    background-repeat: no-repeat;
+    width: 554px;
+    height: 485px;
+    border-radius: 47px;
+
+}
+
+.PassportImg {
+
+    background-image: radial-gradient(circle at center center, #f73280, #0c78ff), repeating-radial-gradient(circle at center center, #f73280, #f73280, 50px, transparent 100px, transparent 50px);
+    background-blend-mode: multiply;
+    background-color: #0c78ff;
+
+}
+
+.PassportDataImg {
+
+    background-image: radial-gradient(circle at center center, #f73280, #0c78ff), repeating-radial-gradient(circle at center center, #f73280, #f73280, 50px, transparent 100px, transparent 50px);
+    background-blend-mode: multiply;
+    background-color: #0c78ff;
+
+}
+
+.ImgSB {
+
+    background: url(file:///Users/igormazhitov/Desktop/Icons/Images/waves1.jpeg);
+    background-size: 120% 120%;
+
+}
+
+.ImgDataSB {
+
+    background: url(file:///Users/igormazhitov/Desktop/Icons/Images/waves1.jpeg);
+    background-size: 150% 150%;
+
+}
+
+.DiplomaImg {
+
+    background: url(file:///Users/igormazhitov/Desktop/Icons/Images/Ship1.png);
+    background-size: 120% 120%;
+
+}
+
+.DiplomaDataImg {
+
+    background: url(file:///Users/igormazhitov/Desktop/Icons/Images/Ship1.png);
+    background-size: 150% 150%;
+
+}
+
+.EndorImg {
+
+    background-image: url(file:///Users/igormazhitov/Desktop/Icons/Images/NationalGeographic.jpeg);
+    background-size: 120% 120%;
+
+}
+
+.EndorDataImg {
+
+    background-image: url(file:///Users/igormazhitov/Desktop/Icons/Images/NationalGeographic.jpeg);
+    background-size: 150% 150%;
+
+}
+
+.MedImg {
+
+    background-image: url(file:///Users/igormazhitov/Desktop/Icons/Images/medicine.png);
+    background-size: 120% 120%;
+
+}
+
+.MedDataImg {
+
+    background-image: url(file:///Users/igormazhitov/Desktop/Icons/Images/medicine.png);
+    background-size: 150% 150%;
+
+}
+
+.text {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    text-transform: uppercase;
+
+    width: 554px;
+    height: 344px;
+    border-radius: 47px 47px 0 0;
+
+    color: #F5F5F5;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    border-radius: 50px 50px 0px 0px;
+
+}
+
+.ImgSB > .text {
+
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 110px;
+
+}
+
+.infoButton {
+
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+
+    width: 207px;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid #49A6FD;
+    border-radius: 500px;
+
+}
+
+.infoButtonText {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #49A6FD;
+
+}
+
+.addInfoButton {
+
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 30px;
+    right: 35px;
+
+    width: 207px;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 500px;
+    background-color: #49A6FD;
+
+}
+
+.addInfoButtonText {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F5F5F5;
+
+}
+
+.infoCardText {
+
+    position: absolute;
+    left: 5.75%;
+    right: 5.8%;
+    top: 9.29%;
+    bottom: 29.06%;
+
+    height: 299px;
+    width: 490px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+    color: #000000;
+
+}
+
+.infoCardBack {
+
+    cursor: pointer;
+
+    position: absolute;
+    left: 31.23%;
+    right: 31.23%;
+    top: 81.29%;
+    bottom: 4.28%;
+
+    height: 70px;
+    width: 208px;
+
+    background: #49A6FD;
+    border-radius: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #F5F5F5;
+}
+
+.numberInput, .issueInput, .expireInput {
+
+    width: 467px;
+    height: 93px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+}
+
+.numberInput {
+
+    margin-top: 18px;
+
+}
+
+.inputField {
+
+    height: 60px;
+    width: 463px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 0 50px 50px 50px;
+
+    text-transform: uppercase;
+
+}
+
+.DataCardButtons {
+
+    display: flex;
+    height: 70px;
+    width: 431px;
+
+}
+
+.DataBackButton {
+
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+    width: 207px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #49A6FD;
+    border-radius: 500px;
+    background-color: rgba(245, 245, 245, 0.7);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #49A6FD;
+    
+}
+
+.DataSubButton {
+
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    right: 35px;
+    width: 207px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 500px;
+    background-color: #49A6FD;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #F5F5F5;
+
+}
+
+.GradientContainer {
+
+    position: absolute;
+    top: 0;
+    width: 554px;
+    height: 485px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 47px;
+    background-image: linear-gradient(180deg, black, transparent);
+
+}
+
+.InfoNumber {
+
+    position: absolute;
+    width: 491px;
+    height: 92px;
+    left: 32px;
+    top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+
+}
+
+.InfoNumberText {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.InfoNumberData {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.InfoIssue {
+
+    position: absolute;
+    width: 491px;
+    height: 92px;
+    left: 30px;
+    top: 168px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+
+}
+
+.InfoExpire {
+
+    position: absolute;
+    width: 491px;
+    height: 92px;
+    left: 33px;
+    top: 285px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+
+}
+
+.InfoDataBack {
+
+    position: absolute;
+    width: 208px;
+    height: 70px;
+    left: 173px;
+    top: 394px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 500px;
+    background-color: #49A6FD;
+    color: #F5F5F5;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #F5F5F5;
+
+}
+
+.DaysLeft {
+
+    position: absolute;
+    width: 467px;
+    height: 70px;
+    left: 44px;
+    top: 243px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-transform: uppercase;
+
+    color: #F5F5F5;
+
+    border-bottom: 3px solid #F5F5F5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.IssueInputFields, .ExpireInputFields {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 464px;
+    
+}
+
+.IssueInputFields > input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+
+.IssueInputFields > input, .ExpireInputFields > input {
+
+    max-width: 145px;
+    text-align: center;
+    height: 60px;
+    background: rgba(245,245,245,0.75);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(245,245,245,0.375);
+    border-radius: 50px;
+
+    font-weight: 700;
+
+
+}
+

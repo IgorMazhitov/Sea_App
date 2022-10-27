@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Context from "./Context";
+import MainPage from "./components/Main page/MainPage";
 
 function App() {
+
+  const [page, setPage] = useState('home')
+  const [mainDocsList, setMainDocsList] = useState([{ id: Date.now(), type: 'ADD', info: false }])
+  const [certList, setCertList] = useState([{ id: Date.now(), type: 'ADD', info: false }])
+
+  const changePage = (name) => {
+
+    setPage(name)  
+
+  }
+
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Context.Provider value={{
+      page, changePage, 
+      mainDocsList, setMainDocsList,
+      certList, setCertList
+    }}>
+
+      <div className="App">
+
+        <MainPage />
+
+      </div>
+
+    </Context.Provider>
   );
 }
 
